@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 250px;    
+    background-color: #B1D182;
+    text-align: center;
+    padding: 20px 0;
+}
+header img{
+    width: 110px;
+    height: 110px;
+}
+header h1 {
+    margin: 0;
+    padding: 10px;
+    color: #2B463C;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.8rem;
+}
+header p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #2B463C;
+}
+main{
+    width: 100%;
+    height: auto;
+    background-color: #F4F1E9;
+    min-width: 320px;
+}
+.promise{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+}
+.contener-promise-title{
+    width: 90%;
+    min-width: 280px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.contener-promise-title h2{
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: #688F4E;
+}
+.contener-promise-title p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: #2B463C;
+    margin-bottom: 30px;
+}
+.promise .backgroundImg{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url('./assets/Default_imagen_de_una_persona_bebiendo_un_gano_cafe_en_la_maan_2\ \(1\).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.promise .header-button{
+    position: relative;
+    top: 10px;
+    left: calc(50% - 100px);
+    display: block;
+    margin-top: 20px;
+    padding: 5px;
+    width: 200px;
+    height: 45px;
+    background-color: red;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fefefe;
+}
+.benefits {
+    margin-top: 60px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+}
+.benefits h2, .features h2, .pain-points h2, .testimonials h2, .shipping-payment h2{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+    margin-bottom: 20px;
+    color: #688F4E;
+}
+.benefits .backgroundImg2{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background-image: url('./assets/capsulasdeganoderma\ \(1\)\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.benefits ul{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+.benefits .fortaleza span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/escudo-de-salud.png');
+    vertical-align: text-bottom;
+}
+.benefits .digestión span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/sistema-digestivo.png');
+    vertical-align: text-bottom;
+}
+.benefits .desintoxicacion span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/refuerzo-inmunologico.png');
+}
+.benefits .antibacteriana span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/bacterias.png');
+}
+.features {
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+}
+.features ul, .pain-points p, blockquote p, .shipping-payment p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+.pain-points, .testimonials, .shipping-payment{
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+}
+.pain-points .header-button2{
+    position: relative;
+    top: 20px;
+    left: calc(50% - 100px);
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 45px;
+    background-color: red;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fefefe;
+}
+.shipping-payment .header-button3{
+    position: relative;
+    left: calc(50% - 100px);
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 200px;
+    height: 45px;
+    background-color: red;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fefefe;
+}
+.testimonials .backgroundImg3{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background-image: url('./assets/mujer.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.testimonials .backgroundImg4{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background-image: url('./assets/hombre.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ul {
+    list-style-type: none;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 5px solid #333;
+    padding-left: 15px;
+}
+.shipping-payment{
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
